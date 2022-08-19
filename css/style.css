@@ -140,3 +140,50 @@ body {
     position: relative;
     top: 1px;
 }
+
+/* Content in header */
+
+.header_badge {
+    margin-bottom: 7px;
+    display: inline-block;
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+}
+
+.header_title {
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.header_text {
+    margin-bottom: 68px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.header_btn {
+    display: inline-block;
+    padding: 27px 48px;
+    font-size: 25px;
+    font-weight: 600;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+}
+
+.header_btn:hover {
+    color: #fff6a4;
+    transition: color 0.3s ease-in;
+}
+
+.header_btn:active {
+    position: relative;
+    top: 2px;
+}
